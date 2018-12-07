@@ -1,0 +1,5 @@
+main
+{enroll integer lex;
+enroll  integer lex;
+lex = 20;output(lex);
+}

@@ -1,0 +1,9 @@
+integer function int(integer a, integer b)
+main
+{STD;
+entoll integer g;entoll integer j;entoll integer r;
+g = 5 ;
+r = 2;
+
+j = int(g, r);output(j);
+}

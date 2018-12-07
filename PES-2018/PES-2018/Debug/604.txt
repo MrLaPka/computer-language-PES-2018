@@ -1,0 +1,19 @@
+integer function int(integer a, integer b)
+{
+enroll integer c;
+c=1+a;
+return c;
+}
+
+main
+{
+STD;
+enroll integer g;
+enroll integer j;
+enroll integer r;
+g = 5 ;
+r = 2;
+
+j = int(g,);
+output(j);
+}
