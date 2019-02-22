@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommandArguments>PES-2018.exe -in:C:\Users\Lenovo\Desktop\PES-2018\PES-2018\Debug\contrprim.txt -log:C:\Users\Lenovo\Desktop\PES-2018\PES-2018\Debug\contrprim.txt.log -Gen:C:\Users\Lenovo\Desktop\PES-2018\PES-2018\Debug\Out.html</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ShowAllFiles>false</ShowAllFiles>
+  </PropertyGroup>
+</Project>

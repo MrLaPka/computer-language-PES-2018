@@ -1,0 +1,103 @@
+integer function retint(integer a, integer b)
+{
+
+enroll integer c;
+
+c = 5*(a+b)*12;
+
+return c;
+
+}
+
+
+string function retstr(string e)
+{
+
+enroll string a;
+
+a = e;
+
+output(a);
+
+return a;
+
+}
+
+
+integer function one()
+{
+
+enroll integer a;
+
+a = 1;
+
+return a; 
+
+}
+
+
+bool function boolean(bool a)
+{
+return a$true; 
+
+}
+
+
+
+main
+{
+
+STD;
+enroll integer int;
+enroll integer a;
+
+enroll integer b;
+
+enroll integer c;
+enroll string str;
+
+enroll string strstr;
+enroll bool bf;
+enroll string strs;
+enroll bool bl;
+enroll bool bg;
+strs = 'xyi';
+int = 11;
+c = 6;
+bf = false;
+output(bf);
+bg = true;
+str =' Ctrl' ;
+bf = bg;
+output(strcon(strstr,str,strs));
+output(' ');
+bl = isempty(strstr);
+output(bl);
+output(' ');
+output(boolean(bg));
+output(' ');
+output(str);
+output(' ');
+output(length('aaaa'));
+output(' ');
+output(int);
+output(' ');
+iftrue(!bg){
+output('not bg');
+output(' ');
+}
+iffalse{
+output('bg');
+output(' ');
+}
+a = retint(int, c);
+output(a);
+output(' ');
+b = 10+retint(a,int);
+output(b);
+output(' ');
+output(retstr('abc'));
+output(' ');
+c = one();
+output(c);
+}
